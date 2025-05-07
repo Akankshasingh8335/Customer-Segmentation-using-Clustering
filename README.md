@@ -1,4 +1,5 @@
-🧠 Customer Segmentation using K-Means Clustering
+🧠 **Customer Segmentation using K-Means Clustering**
+
 
 🔍 **Project Overview**
 
@@ -8,15 +9,23 @@ By analyzing key customer attributes, the goal is to identify distinct customer 
 📁 **About the Dataset**
 
 Source: Kaggle (Mall Customer Segmentation Data)
+
 Records: 200
+
 Attributes: 5
 
 Features:
+
 CustomerID: Unique identifier for each customer
+
 Gender: Male or Female
+
 Age: Customer's age in years
+
 Annual Income (k$): Income in thousands of dollars
+
 Spending Score (1–100): Score assigned by the mall based on customer behavior and spending nature.
+
 
 🧰 **Tools & Technologies**
 
@@ -30,32 +39,46 @@ IDE: Jupyter Notebook (converted to HTML)
 
 📊 **Key Steps in the Project**
 
+
 1. **Data Preprocessing**
 
 Checked for null values and data types
+
 Exploratory Data Analysis (EDA) using histograms
+
 Feature selection for clustering
+
 
 3. **Elbow Method & Optimal Clusters**
 
 Used the Elbow Method to determine the optimal number of clusters (k=5)
+
 Evaluated inertia scores to visualize the “elbow” point
+
 
 3. **Model Training**
 
 Applied KMeans from scikit-learn
+
 Clustered customers into 5 distinct segments
+
 
 4. **Visualization**
    
 2D scatter plots of clusters
+
 Used color coding for better interpretability
+
 Plotted centroids and labeled clusters
+
 
 5. **Interpretation**
 
 Labeled clusters based on age, income, and spending score
+
 Derived actionable insights from each segment
+
+
 
 💡 **Key Insights**
 
@@ -80,4 +103,6 @@ Improve customer engagement and retention
 
 Increase conversion rates and profitability
 
-This project underscores the importance of data-driven decision-making and highlights my ability to leverage unsupervised learning for real-world business solutions.
+
+
+**This project underscores the importance of data-driven decision-making and highlights my ability to leverage unsupervised learning for real-world business solutions.**
